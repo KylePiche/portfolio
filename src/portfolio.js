@@ -23,10 +23,10 @@ const greeting = {
   username: "Kyle Piche",
   title: "Hello, my name is Kyle",
   subTitle: emoji(
-    "A Full Stack Developer in training looking for internship/work in the field of programming!"
+    "A Full Stack Developer looking for internship/work in the field of programming!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/12fR6DIL0NWOmb9LDfmqySD_Axf3v-vBv/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/19yO5QTlGRzZk2Y8-eeZxBLtZKvBJN4w-/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -194,8 +194,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "School Projects",
-  subtitle: "Some projects that was made during my courses at John Abbott College",
+  title: "Projects",
+  subtitle: "Some projects that was made during my courses at John Abbott College with colleagues",
   projects: [
     {
       image: require("./assets/images/AbyssLogo.jpg"),
@@ -217,6 +217,17 @@ const bigProjects = {
         {
           name: "View Code",
           url: "https://github.com/KylePiche/JAC_WebDevTeamProject"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/SyntaxGames-logos_white_banner.png"),
+      projectName: "Syntax Games",
+      projectDesc: "A webpage showcasing a mock game development studio using Bootstrap and PHP.",
+      footerLink: [
+        {
+          name: "View Website",
+          url: "http://projects.applevlad.com/SyntaxGames/"
         }
       ]
     }
