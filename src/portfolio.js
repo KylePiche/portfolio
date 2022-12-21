@@ -173,7 +173,7 @@ const workExperiences = {
       role: "IT Support Expert",
       company: "OVHCloud Canada",
       companylogo: require("./assets/images/OVHCloudLogo.jpg"),
-      date: "March 2016 – May 2021",
+      date: "March 2016 - May 2021",
       desc: "Assisted clients with technical issues related to hosting servers",
       descBullets: [
         "Write documentation for processes and solutions to problems.",
